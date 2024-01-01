@@ -2,7 +2,10 @@
   "name": "stable-chunk-ids-webpack-plugin",
   "version": "0.1.0",
   "main": "dist/index.js",
-  "repository": "git@github.com:rutstyle/stable-chunk-ids-webpack-plugin.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rutstyle/stable-chunk-ids-webpack-plugin.git"
+  },
   "author": "rutstyle <rutstyle@163.com>",
   "license": "MIT",
   "files": [
@@ -20,5 +23,12 @@
     "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.7",
     "standard-version": "^9.5.0"
-  }
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "stable",
+    "chunk",
+    "ids"
+  ]
 }
