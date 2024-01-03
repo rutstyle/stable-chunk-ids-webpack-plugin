@@ -30,7 +30,7 @@ const StableChunkIdsPlugin = require('stable-chunk-ids-webpack-plugin')
 
 module.exports = {
   plugins: [
-    new StableChunkIdsPlugin(),
-  ],
+    new StableChunkIdsPlugin()
+  ]
 };
 ```

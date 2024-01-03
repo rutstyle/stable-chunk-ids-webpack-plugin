@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rutstyle/stable-chunk-ids-webpack-plugin.git"
+    "url": "git+ssh://git@github.com/rutstyle/stable-chunk-ids-webpack-plugin.git"
   },
   "author": "rutstyle <rutstyle@163.com>",
   "license": "MIT",
@@ -15,14 +15,14 @@
     "build": "babel src/ --out-dir dist/",
     "release": "standard-version"
   },
-  "peerDependencies": {
-    "webpack": "^5.0.0"
-  },
   "devDependencies": {
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.7",
     "standard-version": "^9.5.0"
+  },
+  "peerDependencies": {
+    "webpack": "^5.0.0"
   },
   "keywords": [
     "webpack",
